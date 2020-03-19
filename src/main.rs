@@ -7,7 +7,7 @@ fn main() -> std::io::Result<()> {
 
     for arg in &args[1..] {
         let mut contents = String::new();
-        let mut file = File::open(&arg)?.read_to_string(&mut contents)?;
+        let mut _file = File::open(&arg)?.read_to_string(&mut contents)?;
         println!("{}", contents);
     }
     Ok(())
