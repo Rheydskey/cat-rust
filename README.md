@@ -8,4 +8,4 @@ Just do in a terminal
 "./cat {path of your text file}"
 
 ## On Windows
-"cat.exe {path of your text file}"
+".\cat.exe {path of your text file}"
